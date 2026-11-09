@@ -51,7 +51,7 @@ coverage report -m
 ## Project Structure 
 
 ```bash
-L6_L7_51_self_storage/
+Lab06/
 │
 ├── README.md
 ├── .gitignore
