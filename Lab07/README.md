@@ -1,4 +1,10 @@
-# Lab 7 – Fuzz Testing: Self Storage
+# Lab 07: Fuzz Testing: Self Storage
+
+---
+
+**Lab Repository:** [L6_L7_51_self_storage](https://github.com/harshithabt/L6_L7_51_self_storage)
+
+**All SE Labs Repository:** [SE_Labs](https://github.com/harshithabt/SE_Labs)
 
 ---
 
@@ -35,9 +41,27 @@ python -m pytest -v
 
 Hypothesis generates and shrinks test examples. The tests verify that valid inputs preserve the expected calculations and malformed inputs are rejected with `ValueError`.
 
+## Project Structure 
+
+```bash
+Lab07/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── self_storage.py
+├── test_self_storage.py
+├── Lab07_Fuzz_Testing_Report.pdf
+│
+└── screenshots/
+    ├── code_coverage.png
+    └── branch_coverage.png
+```
+
 ## Author
 
 Harshitha B.T. – PES1UG24AM118 (AIML-B Section)
 
-Course: Software Engineering Laboratory  
-University: PES University
+Course: Software Engineering 
+
+---
