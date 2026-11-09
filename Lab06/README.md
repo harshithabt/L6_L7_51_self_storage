@@ -2,7 +2,7 @@
 
 ---
 
-**Lab Repository:** [L6_51_self_storage](https://github.com/harshithabt/L6_51_self_storage/tree/main)
+**Lab Repository:** [L6_L7_51_self_storage](https://github.com/harshithabt/L6_L7_51_self_storage)
 
 **All SE Labs Repository:** [SE_Labs](https://github.com/harshithabt/SE_Labs)
 
@@ -51,11 +51,12 @@ coverage report -m
 ## Project Structure 
 
 ```bash
-L6_51_self_storage/
+L6_L7_51_self_storage/
 │
 ├── README.md
 ├── .gitignore
 ├── self_storage.py
+├── test_self_storage.py
 │
 ├── CodeCoverageTest_self_storage.py
 ├── BranchCoverageTest_self_storage.py
